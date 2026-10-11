@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "generate:llms": "tsx scripts/generate-llms.ts",
-    "generate:sitemap": "tsx scripts/generate-sitemap.ts",
-    "prebuild": "tsx scripts/generate-llms.ts && tsx scripts/generate-sitemap.ts"
+    "prebuild": "tsx scripts/generate-llms.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
