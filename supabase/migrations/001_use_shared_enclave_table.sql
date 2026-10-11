@@ -1,0 +1,17 @@
+-- This site inserts into the existing shared table public.enclave
+-- on Supabase project cfzuypbljirmibmxpabi.
+-- Do not create a second leads table.
+--
+-- Columns written by theenclavedetached.ca (and theenclavedetached.com):
+--   first_name, last_name, email, phone
+--   model          Detached Homes
+--   collection     Detached Collection
+--   source         theenclavedetached.ca
+--   form_name      Detached Collection Registration
+--
+-- Do not add a SELECT policy. Insert-only RLS already exists.
+--
+-- The API uses NEXT_PUBLIC_SUPABASE_ANON_KEY.
+-- Anonymous insert is allowed by 002_allow_anon_insert.sql.
+-- There is no select policy, so the anon key cannot read leads.
+-- Consent is required before insert; created_at is the consent timestamp.
